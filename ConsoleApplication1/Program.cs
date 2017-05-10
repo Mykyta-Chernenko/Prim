@@ -87,6 +87,7 @@ namespace ConsoleApplication1
                 {
                     matrix[i, j] = r.Next(1, 100);
                     matrix[j, i] = matrix[i, j];
+
                 }
             }
             for (int i = 0; i < n; i++)
